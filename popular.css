@@ -1,0 +1,123 @@
+@font-face {
+    font-family: mine;
+    src: url(assets/IRANSans.ttf);
+  }
+  
+  body{
+    background-color: rgb(209, 207, 207)!important;
+    font-family: mine !important;
+  }
+  
+  .topNavBar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    padding-left: 19%;
+    padding-right: 19%;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .topNavBar a {
+    float: right;
+    padding: 2% 1.25%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 85%;
+  }
+  
+  .topNavBar a:hover {
+    background: rgba(3, 167, 145, 0.774);
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logoimg {
+    margin-top: 2px;
+    display: block;
+    float: left;
+    width: 9%;
+    min-width: 70px;
+  }
+  
+  .bodyContainer {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    padding: 1% 10% 1% 10%;
+    border-radius: 5px;
+  }
+  
+  .bodyHeader {
+    margin: 1% 0 2% 0;
+    color: rgb(17, 17, 17);
+  }
+  
+  .food_row {
+      margin-bottom: 1%;
+  }
+
+  .food_row a {
+    /* background-color: red; */
+    color: black;
+    font-size: large;
+    position: relative;
+    top: 25px;
+    right: 5%;
+  }
+  
+  .food_row img {
+    float: right;
+    width: 20%;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+
+  .user_row {
+    margin-bottom: 1%;
+  }
+
+  .user_row a {
+    color: black;
+    font-size: large;
+    position: relative;
+    top: 25px;
+    right: 5%;
+  }
+
+  .user_row img {
+    float: right;
+    width: 15%;
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 991px) {
+    .topNavBar {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .bodyContainer {
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-top: 8.5%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 777px) {
+    .topNavBar {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .bodyContainer {
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-top: 15.5%;
+    }
+  }
+  
